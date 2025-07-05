@@ -3,6 +3,7 @@ import asyncio
 import random
 
 api_id = 25924294
+session_string = """1ApWapzMBuw7Sd9x_T9aGLtphE2FtnGkaT4ioi3pPqv2fljdX2ljHATneo48j0JB38JK1UsteIk-u7LAtgDNLvU8pcRJRzjBhqqT0raU8ed3n-sFcYZ54p9XVUYisnYzsdxweghzd85718QG_StgXzC8jN8rYihtkYWdhV8eKf04LaVKCNHBgeYsRv9lcTWJc0GmYAuI9uaxjSibu8hH0HJsYZxX45vJvS-e1dzL8eBDH2VaWvWPe7GFRIkr-08NaV6qJQQTiMcxtwjer5c_pN6T1h1tRI6CxA6S_WCn6IIm10EnXebCRhcWbB0yzkCli-vyNVpVyTZ9fwrc8nuEXgJfrCDD_bFg="""
 api_hash = '2eab80a404b5815dcf0abe3d5b31f851'
 client = TelegramClient('lemon_session', api_id, api_hash)
 
