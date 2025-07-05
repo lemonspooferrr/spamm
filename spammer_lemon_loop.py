@@ -98,6 +98,7 @@ async def main():
                 await asyncio.sleep(60)
             except Exception as e:
                 print(f"[ERREUR] {group} -> {e}")
+                await asyncio.sleep(10)  # évite les blocages
 
 with client:
     client.loop.run_until_complete(main())
